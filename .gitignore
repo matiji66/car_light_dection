@@ -99,3 +99,11 @@ ENV/
 
 # mypy
 .mypy_cache/
+Records/
+RecognizeMe/lfw.tgz
+RecognizeMe/all_faces
+MNIST_model/
+MNIST_data/
+.idea/
+.DS_Store
+
