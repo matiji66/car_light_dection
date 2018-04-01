@@ -106,4 +106,4 @@ MNIST_model/
 MNIST_data/
 .idea/
 .DS_Store
-
+data/

@@ -22,9 +22,12 @@ import time
 from tensorflow.contrib.model_pruning.examples.cifar10 import cifar10_input
 from tflearn.datasets import cifar10
 
+cifar10.load_data()
+
+
 max_steps = 3000
 batch_size = 128
-data_dir = '/tmp/cifar-10-batches-bin'
+data_dir = 'data/cifar-10-batches-bin'
 
 
 def variable_with_weight_loss(shape, stddev, wl):
